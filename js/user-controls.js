@@ -3,6 +3,9 @@ function respondToUser() {
   
   // TODO: if player is back to position
   // stop them
+  if (player.y >=320) {
+    player.velocityY = 0;
+  }
   
   // Player jumping controls
   if (keyWentDown("UP")) {
