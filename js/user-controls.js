@@ -16,4 +16,5 @@ function respondToUser() {
   if (player.y <= 100) {
     player.velocityY = 4;
   }
+  
 }
