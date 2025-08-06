@@ -16,4 +16,10 @@ function respondToUser() {
   if (player.y <= 100) {
     player.velocityY = 4;
   }
+  
+  health=100
+  if (player.istouching (enemy)){
+    health=health-1
+  }
+
 }
